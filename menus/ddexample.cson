@@ -1,0 +1,11 @@
+# 'context-menu':
+  # 'atom-workspace': [
+    # {label:'Insert-text', command: 'ddexample:insert-text'},
+	# {label:'console-hello-world', command: 'ddexample:console'}
+  # ]
+  
+  # 右键
+  'context-menu':
+	# 'atom-text-editor': [{label: 'Hello world', command: 'ddexample:console'}] #格式错误相当隐蔽，反正我看不出
+    'atom-text-editor': [{label: 'Insert time', command: 'ddexample:insert-text'}]
+    'atom-workspace': [{label: 'Hello world', command: 'ddexample:console'}]

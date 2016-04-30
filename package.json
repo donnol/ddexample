@@ -1,0 +1,11 @@
+{
+	"activationEvents": [
+		"ddexample:console",
+		"ddexample:insert-text"
+	],
+	"engines": {
+		"atom": ">0.39.0"
+	},
+	"main":"./lib/ddexample",
+	"comment":"声明了两个事件 1. 打印hello world 2. 在光标处插入当前时间，如2016-04-3015:24:33 要求atom版本 插件主要文件的目录"
+}
